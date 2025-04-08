@@ -28,6 +28,7 @@ public class Player : MonoBehaviour
     void Start()
     {
         rigid = GetComponent<Rigidbody>();
+
     }
 
     public Rigidbody rigid;
