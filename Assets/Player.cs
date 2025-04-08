@@ -28,6 +28,7 @@ public class Player : MonoBehaviour
     void Start()
     {
         rigid = GetComponent<Rigidbody>();
+        transform.position = new Vector3(10f,10f,10f);
     }
 
     public Rigidbody rigid;
