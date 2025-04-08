@@ -27,8 +27,10 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        rigid = GetComponent<Rigidbody>();       
-        transform.localEulerAngles = new Vector3(0f, 0f, 0f);
+
+        rigid = GetComponent<Rigidbody>();
+        transform.position = new Vector3(10f,10f,10f);
+
     }
 
     public Rigidbody rigid;
